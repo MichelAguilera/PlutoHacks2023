@@ -1,0 +1,8 @@
+https://open-platform.theguardian.com/
+https://developer.ft.com/
+https://developer.bbc.com/login-required
+https://developer.nytimes.com/apis
+https://developer.yahoo.com/api/
+https://www.microsoft.com/en-us/bing/apis/bing-news-search-api
+https://www.bloomberg.com/professional/support/api-library/
+https://developer.ap.org/
