@@ -1,0 +1,30 @@
+{
+    "response": {
+        "status": "ok", 
+        "userTier": "developer", 
+        "total": 21402, 
+        "startIndex": 1, 
+        "pageSize": 10, 
+        "currentPage": 1, 
+        "pages": 2141,
+        "orderBy": "relevance", 
+        "results": [
+            {
+                "id": "business/2023/oct/13/microsoft-deal-to-buy-call-of-duty-maker-activision-blizzard-cleared-by-uk", 
+                "type": "article", 
+                "sectionId": 
+                "technology", 
+                "sectionName": "Technology", 
+                "webPublicationDate": "2023-10-13T16:21:40Z", 
+                "webTitle": "Microsoft completes $69bn deal to buy Call of Duty maker Activision Blizzard", 
+                "webUrl": "https://www.theguardian.com/business/2023/oct/13/microsoft-deal-to-buy-call-of-duty-maker-activision-blizzard-cleared-by-uk", 
+                "apiUrl": "https://content.guardianapis.com/business/2023/oct/13/microsoft-deal-to-buy-call-of-duty-maker-activision-blizzard-cleared-by-uk",
+                "fields": {
+                    "headline": "Microsoft completes $69bn deal to buy Call of Duty maker Activision Blizzard"
+                }, 
+                "pillarId": "pillar/news", 
+                "pillarName": "News"
+            }
+        ]
+    }
+}
