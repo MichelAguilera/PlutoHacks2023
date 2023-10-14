@@ -21,10 +21,9 @@ def get_guardian() -> str:
     json_content = content.get_content_response()
     headlines = parse_json_guardian(json_content)
 
+    return headlines
+
 def parse_json_guardian(json_content):
-    # print(json_content["response"]["results"])
-
-
     results = []
     for result in json_content["response"]["results"]:
         results.append(result["fields"]["headline"])
