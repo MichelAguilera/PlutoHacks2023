@@ -17,14 +17,11 @@ json_f_urls.close()
 from theguardian import theguardian_content
 def get_guardian(a_query) -> str:
     query = a_query
-    date = 1 # CHANGE THIS
     headers = {
         "q": query,
         "query-fields": "headline",
-        # "tag": "technology",
-        # "from-date": date,
         "order-by": "relevance",
-        "show-fields": "headline",
+        "show-fields": "headline"
     }
     content = theguardian_content.Content(api=api_keys["TheGuardian"], **headers)
     json_content = content.get_content_response()
@@ -80,3 +77,4 @@ def get_openai(prompt):
     result = response['choices'][0]['text'].strip()
     c.log(f"AI RESPONSE:\n{result}")
     return result
+
